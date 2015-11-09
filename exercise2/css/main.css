@@ -1,0 +1,15 @@
+.bg-cover {
+  background: url(../images/mac.jpg);
+  height: 300px;
+  background-size: cover;
+}
+
+.main-content{
+
+}
+
+.sidebar{
+	background-color: #d9e4ee;
+	padding-top: 20px;
+	height:800px;
+}

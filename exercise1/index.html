@@ -1,70 +1,82 @@
 <!DOCTYPE html>
-
 <html>
 
   <head>
     <meta charset="UTF-8">
-    <title>Website design with divs</title>
+    <title>Cnn Test design</title>
     <style>
-      #header {
-        background-color: #28BADF;
-        color:white;
-        font-family: sans-serif;
-        text-align: center;
-        padding: 15px;
+      body{
+        margin: 0;
       }
-      #navigation {
-        line-height: 30px;
-        background-color: #eeeeee;
-        font-family: sans-serif;
-        height:300px;
-        width:100px;
+
+      #container{
+        width: 100%;
+      }
+
+      #headerBg {
+        width:100%;
+        background-color: #000;
+        height:75px;
+      }
+
+      #interior {
+        width:1117px;
+        margin:0 auto;
+      }
+
+      #logo {
+        width:85px;
+        height:85px;
+        background-image: url("images/logo.png");
         float:left;
-        padding:15px;
+        display: inline-block;
       }
-      #section {
-        width:750px;
-        font-family: sans-serif;
+
+      #topNav {
+        background-color: #000;
+        width:1032px;
+        height:40px;
+        color: #fff;
         float:left;
-        padding:20px;
       }
-      #footer {
-        background-color: black;
+      .topNavFont {
+        font-size: 1.1em;
+        color:#fff;
+        line-height: 5px;
+        vertical-align: middle;
         font-family: sans-serif;
-        color:white;
-        clear:both;
-        text-align: center;
-        padding: 5px;
+        padding-left: 15px;
+        display: inline-block;
+        padding-right: 12px;
       }
+
+      #bottomNav {
+        background-color: #ccc;
+        width:1032px;
+        height:35px;
+        color: #fff;
+        float:left;
+      }
+
       </style>
 
   </head>
 
   <body>
-    <div id="header">
-      <h1>Web Developers Course</h1>
-    </div>
-
-    <div id="navigation">
-      <a href="#">HTML</a><br>
-      <a href="#">CSS</a><br>
-      <a href="#">PHP</a><br>
-    </div>
-
-    <div id="section">
-      <h1>CSS</h1>
-        <p>
-          CSS, also known as Cascading Style Sheets is a markup language that allows for styling of text &amp;
-          Webpage elements, CSS is versatile and has a wide range of capabilities that allow for the simple modification of
-          text and elements, to far more advanced techniques that can mimic some photo rendering software.
-          <br/><br/>
-          Used the right way, CSS can add a professional look &amp; feel to almost any Webpage.
-
-        </p>
-    </div>
-
-    <div id="footer">
-      Copyright &copy; Luis Escobar
+    <div id="container">
+      <div id="headerBg">
+        <div id="interior">
+          <div id="logo"></div>
+          <div id="topNav">
+            <p class="topNavFont">News</p>
+            <p class="topNavFont">Video</p>
+            <p class="topNavFont">TV</p>
+            <p class="topNavFont">Opinions</p>
+            <p class="topNavFont">More...</p>
+          </div>
+          <div id="bottomNav">vbhjg</div>
+        </div>
+      </div>
     </div>
   </body>
 
